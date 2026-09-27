@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geodesy-toolkit"
+version = "0.1.0"
+description = "RINEX quality checks and levelling network adjustment with Tau and global tests"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Aditya Kumar Jha"}]
+dependencies = ["numpy", "scipy"]
+
+[project.urls]
+Homepage = "https://adityagis.github.io/Portfolio/"
+
+[tool.setuptools]
+packages = ["geodesy_toolkit"]
