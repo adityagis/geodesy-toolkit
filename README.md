@@ -7,6 +7,8 @@ Small Python tools for the checks I run on GNSS and levelling data.
 
 The example data in `examples/` is synthetic. No survey data from any organisation is included.
 
+Maintained by Aditya Kumar Jha. For scoped GNSS processing and survey QA work, see [Uday GeoAnalytics Consultancy](https://ugaconsult.com/gnss-survey-qa).
+
 ## Install
 
 ```bash
