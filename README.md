@@ -33,6 +33,8 @@ DEMO00IND_R_20262440000_01H_30S_MO.rnx DEMO       epochs=110    interval=30s com
 
 Completeness is the number of epochs found divided by the number expected between the first and last epoch at the file's interval. A gap is any jump longer than 1.5 times the interval. Plain and `.gz` files are both read.
 
+For what the header fields mean and which checks to run before processing, see the guide [What is a RINEX file, and how do you check one before processing?](https://ugaconsult.com/insights/rinex-file-quality-checks)
+
 ## Levelling network adjustment
 
 Two CSV files:
